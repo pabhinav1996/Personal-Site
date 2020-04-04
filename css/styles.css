@@ -1,4 +1,5 @@
 body {
+  color: #40514E;
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
@@ -19,6 +20,7 @@ h2 {
   font-size: 1.5rem;
   font-weight: normal;
   line-height: 2;
+  padding-bottom: 10px;
 }
 
 h3 {
@@ -27,18 +29,27 @@ h3 {
   line-height: 2;
 }
 
+p{
+  line-height: 2;
+}
+
 a {
-  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
   color: #11999E;
+  margin: 10px 20px;
+  text-decoration: none;
+
+}
+
+a:hover{
+  color: #EAF6F6;
 }
 
 hr{
-  border-style: none;
-  border-top-style: dotted;
-  border-color: grey;
-  border-width: 5px;
-  width: 5%;
-  margin-bottom: 30px;
+  border: dotted #EAF6F6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
 }
 
 .top-container {
@@ -49,30 +60,45 @@ hr{
 }
 
 .middle-container{
-  padding-top: 30px;
+  margin: 100px 0;
 }
 
 .bottom-container{
   background-color: #66BFBF;
-  padding-top: 50px;
-
+  padding: 50px 0 20px;
 }
 
 .pro {
   text-decoration: underline;
 }
 
+.intro{
+  width: 30%;
+  margin: auto;
+}
+
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px ;
+}
+
+.copywright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0px;
+}
+
 /*'Display: none' and 'visibility: hidden' are some ways to hide out block or inline element*/
 .top-cloud {
   position: absolute;
-  right: 22rem;
-  top: 9.375rem;
+  right: 300px;
+  top: 40px;
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 22rem;
-  bottom: 20rem;
+  left: 250px;
+  bottom: 300px;
 }
 
 .skill-row {
@@ -97,43 +123,26 @@ hr{
   line-height: 2;
 }
 
-.code-details{
-  color: #40514E;
-  text-align: center;
-  width: 20%;
-  margin: auto;
-}
-
-.copywright{
-  color: #EAF6F6;
-  margin-bottom: 2px;
-  font-size: 10px;
-  padding-bottom: 40px;
-}
-
-.links{
-  word-spacing: 30px;
-  padding-bottom: 40px;
-  font-size: 15px;
-}
 
 .btn{
-  background-color: #11999E;
-  color: #d1f5d3;
-  font-family: serif;
-  padding: 10px;
-  border-radius: 5px;
-  line-height: 10;
+  font-family: 'Montserrat', sans-serif;
+  color: #FFFFFF;
+  font-size: 20px;
+  padding: 20px 25px;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  background: #63B8EE;
+  background: linear-gradient(top,  #11CDD4,  #11999E);
+  background: -ms-linear-gradient(top,  #11CDD4,  #11999E);
+  background: -webkit-gradient(linear, left top, left bottom, from(#11CDD4), to(#11999E));
+  background: -moz-linear-gradient(top,  #11CDD4,  #11999E);
 }
-
-.contact-me{
-  text-align: center;
-  width: 50%;
-  margin: 0 auto;
-  line-height: 3;
-}
-
-.profile{
-  line-height: 2;
-  margin-bottom: 50px;
+.btn:hover {
+  color: #14396A;
+  background: #468CCF;
+  background: linear-gradient(top,  #30E3CB,  #2BC4AD);
+  background: -ms-linear-gradient(top,  #30E3CB,  #2BC4AD);
+  background: -webkit-gradient(linear, left top, left bottom, from(#30E3CB), to(#2BC4AD));
+  background: -moz-linear-gradient(top,  #30E3CB,  #2BC4AD);
 }
