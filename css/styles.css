@@ -65,14 +65,14 @@ hr{
 /*'Display: none' and 'visibility: hidden' are some ways to hide out block or inline element*/
 .top-cloud {
   position: absolute;
-  right: 350px;
-  top: 130px;
+  right: 22rem;
+  top: 9.375rem;
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 350px;
-  bottom: 300px;
+  left: 22rem;
+  bottom: 20rem;
 }
 
 .skill-row {
